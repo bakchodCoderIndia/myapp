@@ -1,9 +1,17 @@
 /*NAVBAR STYLES*/
+body{
+ background-image: url('https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?cs=srgb&dl=background-blank-empty-light-62693.jpg&fm=jpg');
+}
+.pricing-header{
+  background-image: url('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
 .navbar-brand{
-  font-weight: 300;
+  font-weight: 200;
   padding-left: 3rem;
   }
- 
+ .logo{
+   margin-right: 0.7rem
+ }
 
 .paddingOnNav{
   padding-right:4rem
@@ -21,7 +29,14 @@
 .productAlign{
   text-align: center;
   padding-top: 4rem;
-  }
+  background-image: url('https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-size: contain;  
+}
+
+.h3{
+  padding: 3rem;
+}
+
 .para{
    padding-right: 2rem;
    padding-left: 2rem;
@@ -30,19 +45,25 @@
   padding-bottom: 10rem;
 }
 .padding-bottom{
+  
   padding-bottom: 3rem;
 }
 /*Phone Display*/
 @media (max-width:1028px){
   .marginCarousel{
-    padding-top: 3.53rem;
+    padding-top: 5rem;
   }
 }
 .featurette-divider{
   padding-top: 5rem
 }
+
+.formpadding{
+  margin-top: 8rem;
+}
 @media(max-device-width : 768px) {
 .formpadding{
+  margin-top: 5rem;
   padding-left:20rem;
   padding-right:20rem
 }
