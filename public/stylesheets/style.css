@@ -56,14 +56,10 @@ body{
 }
 
 .formpadding{
-  margin-top: 8rem;
+  margin-top: 5rem;
 }
 @media(max-device-width : 768px) {
-.formpadding{
-  margin-top: 5rem;
-  padding-left:20rem;
-  padding-right:20rem
-}
+
 }
 .imglogo{
   padding-right: 25rem;
