@@ -1,21 +1,21 @@
 /*NAVBAR STYLES*/
+.navbar-brand{
+  font-weight: 300;
+  padding-left: 0.5rem;
+}
 body{
  background-image: url('https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?cs=srgb&dl=background-blank-empty-light-62693.jpg&fm=jpg');
+ width: 100%; 
 }
+
 .pricing-header{
   background-image: url('https://images.pexels.com/photos/1568607/pexels-photo-1568607.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
-.navbar-brand{
-  font-weight: 200;
-  padding-left: 3rem;
-  }
- .logo{
-   margin-right: 0.7rem
- }
-
-.paddingOnNav{
-  padding-right:4rem
+@viewport{
+  zoom: 1.0;
+  width: device-width;
 }
+
 /*List items padding */
 
 .listnav{
@@ -50,10 +50,7 @@ body{
 }
 /*Phone Display*/
 @media (max-width:1028px){
-  .marginCarousel{
-    padding-top: 5rem;
-  }
-}
+
 .featurette-divider{
   padding-top: 5rem
 }
